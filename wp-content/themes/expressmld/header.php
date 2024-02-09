@@ -26,43 +26,55 @@
     <!-- stellarnav -->
     <link href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/stellarnav.min.css" rel="stylesheet">
     <?php wp_head(); ?>
+
+
 </head>
 
 <body <?php body_class(); ?>>
     <!-- header -->
-    <?php $generalid = get_id_by_slug('site-general-settings'); ?>
-    <header class="header-part" id="scroll-bar">
+    <?php $generalid = get_id_by_slug('site-general-settings');
+    //echo  $generalid; die();
+
+
+     ?>
+       <header class="header-part" id="scroll-bar">
         <div class="top-header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
                         <div class="logo">
-                            <!--<a href="<?php //echo get_site_url(); ?>"><?php //echo get_field('temporary_logo_text',$generalid); ?></a> -->
-                              <a href="tel:<?php echo get_field('phone_number',$generalid); ?>"><?php echo get_field('temporary_logo_text',$generalid); ?></a> 
+                            <!-- <a href="#home">Logo Here</a> -->
+                                                 
+                        <marquee>
+                            <a href="tel:<?php echo get_field('phone_number',$generalid); ?>"><?php echo get_field('temporary_logo_text',$generalid); ?> </a>
+                        </marquee>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="home-contact">
-   <a href="tel:<?php echo get_field('phone_number',$generalid); ?>"><span><i class="bi bi-telephone-forward"></i></span><?php echo get_field('phone_number_label',$generalid); ?></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
         <div class="bottom-header">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 col-3">
-                        <div class="logo">
-                            <a href="<?php echo get_site_url(); ?>"><?php echo get_field('temporary_logo_text',$generalid); ?></a>
+                    <div class="col-md-12">
+                       
+               <!--  <div class="marquee">
+              
+                <div>Get  a free inspection of Mold, call us now</div>
+        
+                </div>
+                </div> -->
+
+                    </div>
+                 <!--    <div class="col-md-9 col-9">
+                        <div class="stellarnav d-none">
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#Locations">Locations </a></li>
+                                <li><a href="#gallery">Services</a></li>
+                               
+                                <li><a href="#FAQ">FAQ</a></li>
+                                <li><a href="#Reviews">Reviews</a></li>
+                                <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                                <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                                <li><a href="#"><i class="bi bi-twitter"></i></a></li>
                         </div>
-                    </div>
-                    <div class="col-md-9 col-9">
-                   
-               <?php wp_nav_menu( array('menu' => 'main menu', 'items_wrap' => '<ul>%3$s</ul>','container_class'=>'stellarnav' )); ?>
-
-
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

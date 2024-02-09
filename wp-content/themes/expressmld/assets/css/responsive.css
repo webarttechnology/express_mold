@@ -1,0 +1,245 @@
+@media only screen and (max-width: 320px){
+	.banner-content h1 {
+    font-size: 36px;
+}
+	.inner-banner {
+    padding: 0px;
+}
+ .footer__area-widget-menu ul {
+    display: grid;
+    justify-content: center;
+}
+.footer-menu p {
+    font-size: 25px;
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+}
+	.footer__area-widget-menu ul li {
+    margin-right: 0px;
+}
+.call-content p {
+    font-size: 40px;
+}
+	.service-head h2 {
+    font-size: 54px;
+}
+	.form-div p{
+		line-height: 17px;
+	}
+	.accordion {
+    padding: 10px 16px;
+}
+	.service-head h2 {
+    font-size: 38px;
+}
+.about__five-left-image-experience h2 {
+    font-size: 32px;
+}
+	.call {
+    padding: 19px 10px;
+    font-size: 17px;
+}
+	.about__five-right-title h2 {
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: var(---heading-color);
+    margin-top: 1rem;
+}
+	.about__five-left-shape {
+    width: 100%;
+}
+	.about__five-left-image-experience {
+    position: absolute;
+    left: 40px;
+    bottom: -85px;
+    background: var(---heading-color);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    gap: 20px;
+    padding: 12px 5px;
+    z-index: 1;
+}
+	.accordion {
+    padding: 0 16px;
+}
+	.accordion {
+    min-width: 252px;
+}
+	.call-content p {
+    font-size: 40px;
+}
+.number a {
+    font-size: 24px;
+}
+}
+@media only screen and (min-width:480px) and (max-width:639px){
+.inner-banner {
+    padding: 10px 0;
+}
+	.banner-content h1 {
+    font-size: 46px;
+}
+	.service-head h2 {
+    font-size: 40px;
+}
+	.call-to-actions {
+    padding: 1rem 0;
+}
+	.footer__area-widget-menu ul li {
+    margin-right: 30px;
+}
+	.footer-menu p {
+    padding-bottom: 0rem;
+}
+	.accordion {
+    padding: 20px 16px;
+}
+	.call-button {
+    padding-top: 3rem;
+}
+	.footer__area-widget-menu ul li a {
+    font-size: 18px;
+}
+	.footer__area-widget-menu ul li {
+    margin-right: 18px;
+}
+	.call-content p {
+    font-size: 48px;
+}
+	.number .shaking {
+    font-size: 30px;
+}
+	.number a {
+    font-size: 34px;
+}
+	.about__five-right-title h2 {
+    font-size: 56px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: var(---heading-color);
+    padding-top: 4rem;
+}
+}
+@media only screen and (max-width:479px){
+.inner-banner {
+    padding: 0px;
+}
+.banner-content h1 {
+    font-size: 40px;
+}
+	.service-head h2 {
+    font-size: 34px;
+}
+	.call-content p {
+    font-size: 40px;
+}
+	.call-to-actions {
+    padding: 3rem 0;
+}
+	.number .shaking {
+    font-size: 24px;
+}
+	.number a {
+    font-size: 24px;
+}
+	.call-to-actions {
+    padding: 1rem 0;
+}
+	.footer__area-widget-menu ul {
+    display: grid;
+}
+	.footer-menu p {
+    padding-bottom: 0rem;
+}
+	.call-button {
+    padding-top: 3rem;
+}
+	.about__five-left-image-experience h2 {
+    font-size: 40px;
+}
+	.about__five-right-title h2 {
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: var(---heading-color);
+    padding-top: 6rem;
+}
+	.accordion {
+    padding: 10px 16px;
+}
+}
+
+@media only screen and (min-width:640px) and (max-width:767px){
+.inner-banner {
+    padding: 20px 0;
+}
+	.banner-content h1 {
+    font-size: 48px;
+}
+	.service-head h2 {
+    font-size: 46px;
+}
+	.about__five-right-title h2 {
+    font-size: 48px;
+    margin-bottom: 1rem;
+    padding-top: 5rem;
+}
+	.call-button {
+    padding-top: 3rem;
+}
+	.footer__area-widget-menu ul li {
+    margin-right: 28px;
+}
+	.footer-menu p {
+    padding-bottom: 0rem;
+}
+	.accordion {
+    padding: 20px 16px;
+}
+	.call-to-actions {
+    padding: 1rem 0;
+}
+	.footer__area-widget-menu ul li a {
+    font-size: 18px;
+    text-align: center;
+}
+	.footer__area-widget-menu ul li {
+    margin-right: 20px;
+}
+}
+@media only screen and (min-width:768px) and (max-width:900px){
+.inner-banner {
+    padding: 20px 0;
+}
+	.footer-menu p {
+    padding-bottom: 0rem;
+}
+	.banner-content h1 {
+    font-size: 50px;
+}
+	.number {
+    padding-top: 14rem;
+}
+	.call-to-actions {
+    padding: 2rem 0;
+}
+}
+@media only screen and (min-width:901px) and (max-width:1279px){
+.inner-banner {
+    padding: 20px 0;
+}
+	.banner-content h1 {
+    font-size: 50px;
+}
+	.number {
+    padding-top: 16rem;
+}
+	.call-to-actions {
+    padding: 1rem 0;
+}
+	.footer-menu p {
+    padding-bottom: 0rem;
+}
+}

@@ -19,11 +19,10 @@ $generalid = get_id_by_slug('site-general-settings');
 <footer class="footer-part">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 col-sm-12">
             <?php echo get_field('footer_call_now_button_text',$generalid); ?>
                 <div class="footer__area-widget-menu three">
-
-            
+        
                       <?php wp_nav_menu( array('menu' => 'Footer menu', 'items_wrap' => '<ul>%3$s</ul>' )); ?>
                 </div>
             </div>
@@ -59,6 +58,17 @@ $generalid = get_id_by_slug('site-general-settings');
             phoneBtn: '18009997788',
             locationBtn: 'https://www.google.com/maps'
         });
+
+        //function scroll() {
+  //$('#scrolltext').css('left', $('#scrollcontainer').width());
+  //$('#scrolltext').animate({
+    //left: '-='+($('#scrollcontainer').width()+$('#scrolltext').width())
+  //}, 10000, function() {
+    //scroll();
+  //});
+//}
+
+//scroll();
     });
 </script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

@@ -56,7 +56,7 @@ p {
 
 .top-header {
     background-color: #d2e3a7;
-    padding: 8px 0;
+    padding: 15px 0;
 }
 
 .bottom-header {
@@ -85,12 +85,16 @@ p {
 /* scroll */
 
 .header-part {
+    position: relative;
     position: fixed;
     width: 100%;
     top: 0;
     background-color: #ffffff; /* Adjust background color as needed */
     z-index: 1000;
     transition: top 0.3s;
+}
+.header-part .top-header {
+    display: block !important;
 }
 
 
@@ -117,7 +121,7 @@ p {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 130px 0;
+    padding: 70px 0;
     position: relative;
 }
 
@@ -200,6 +204,14 @@ p {
     width: 100%;
     padding-top: 8px;
 }
+.form-div p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 14px;
+}
+.personnspann i{
+	       margin-top: 15px;
+}
 .form-div i {
     color: #333333;
     position: absolute;
@@ -214,7 +226,20 @@ p {
     color: #000;
     border: 2px solid var(---primary-color);
 }
-
+.wpcf7-not-valid-tip {
+    color: #dc3232;
+    font-size: 1em;
+    font-weight: normal;
+    display: block;
+    padding-top: 20px;
+}
+.wpcf7-form-control.wpcf7-radio {
+    display: flex;
+    flex-wrap: wrap;
+}
+.wpcf7-form-control.wpcf7-radio .wpcf7-list-item {
+    width: 44%;
+}
 
 
 /* about */
@@ -798,7 +823,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 30px;
+  gap: 91px;
   text-align: center;
   padding: 0 20px;
   height: 122%;
@@ -806,7 +831,7 @@ body {
   overflow: hidden;
 }
 .card__bx .card__data .card__icon {
-  height: 80px;
+  height: 46px;
   width: 80px;
   display: flex;
   justify-content: center;
@@ -881,3 +906,24 @@ body {
 .logo{
     padding-top: 0;
 }
+
+<!-- this is for the scrolling of header linked text...Pushan 07/02/2024  -->
+.marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    animation: marquee 40s linear infinite;
+  }
+
+  .s-text{
+    width: 100%;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
